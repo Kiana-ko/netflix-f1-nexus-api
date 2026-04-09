@@ -1,0 +1,115 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ── Virtual Environments ───────────────────────────────────────────────────────
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# ── Environment Variables ──────────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ── FastAPI / Uvicorn ──────────────────────────────────────────────────────────
+*.log
+uvicorn.log
+
+# ── Testing ────────────────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.py,cover
+nosetests.xml
+test-results/
+
+# ── Type Checking ──────────────────────────────────────────────────────────────
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pytype/
+.pyre/
+
+# ── Jupyter ────────────────────────────────────────────────────────────────────
+.ipynb_checkpoints
+*.ipynb
+
+# ── macOS ─────────────────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.AppleDouble
+.LSOverride
+Icon
+.DocumentRevisions-V100
+.fseventsd
+.TemporaryItems
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# ── PyCharm ────────────────────────────────────────────────────────────────────
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# ── VS Code ────────────────────────────────────────────────────────────────────
+.vscode/
+*.code-workspace
+
+# ── Database ──────────────────────────────────────────────────────────────────
+*.db
+*.sqlite3
+*.sqlite
+
+# ── Secrets & Credentials ─────────────────────────────────────────────────────
+*.pem
+*.key
+*.cert
+*.p12
+secrets/
+credentials/
+
+# ── Misc ──────────────────────────────────────────────────────────────────────
+*.bak
+*.swp
+*.swo
+*~
+.cache/
+.temp/
+tmp/

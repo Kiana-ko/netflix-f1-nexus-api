@@ -1,0 +1,23 @@
+id,contact_name,company,phone,email,f1_team,role,partnership_type,country
+1,Max Verstappen,Red Bull Racing,+31-20-555-0101,max.verstappen@redbullracing.com,Red Bull Racing,Driver,F1 Talent,Netherlands
+2,Toto Wolff,Mercedes-AMG F1,+43-1-555-0102,toto.wolff@mercedesamgf1.com,Mercedes-AMG,Team Principal,F1 Talent,Austria
+3,Charles Leclerc,Scuderia Ferrari,+39-06-555-0103,charles.leclerc@ferrari.com,Ferrari,Driver,F1 Talent,Monaco
+4,George Russell,Mercedes-AMG F1,+44-20-555-0104,george.russell@mercedesamgf1.com,Mercedes-AMG,Driver,F1 Talent,UK
+5,Kimi Antonelli,Mercedes-AMG F1,+39-02-555-0105,kimi.antonelli@mercedesamgf1.com,Mercedes-AMG,Driver,F1 Talent,Italy
+6,Nico Rosberg,Rosberg X Racing,+49-711-555-0106,nico.rosberg@rosbergxracing.com,Mercedes-AMG,Brand Ambassador,F1 Talent,Germany
+7,Keke Rosberg,Rosberg Management,+358-9-555-0107,keke.rosberg@rosbergmgmt.com,Williams,Brand Ambassador,F1 Talent,Finland
+8,James Whitfield,Oracle Corporation,+1-415-555-0182,j.whitfield@oracle.com,Red Bull Racing,Sponsorship Manager,Title Sponsor,USA
+9,Sofia Marchetti,Shell Global,+31-20-555-0194,s.marchetti@shell.com,Ferrari,Partnership Director,Technical Partner,Netherlands
+10,Ethan Clarke,Salesforce Inc,+1-415-555-0231,e.clarke@salesforce.com,McLaren,Media Liaison,Global Partner,USA
+11,Yuki Tanaka,Honda Motor Co,+81-3-555-0148,y.tanaka@honda.co.jp,Aston Martin,Technical Partner Lead,Premium Partner,Japan
+12,Marcus Reynolds,Cognizant Technology,+1-201-555-0163,m.reynolds@cognizant.com,Williams,Sponsorship Director,Title Sponsor,USA
+13,Carlos Vega,DHL Express,+49-228-555-0184,c.vega@dhl.com,Ferrari,Logistics Partner,Official Supplier,Germany
+14,Oliver Bennett,Rolex SA,+41-22-555-0137,o.bennett@rolex.com,Red Bull Racing,Hospitality Manager,Premium Partner,Switzerland
+15,Diego Fernandez,Netflix Inc,+1-310-555-0188,d.fernandez@netflix.com,Haas,Content Producer,Broadcast Partner,USA
+16,Isabelle Dupont,Netflix Inc,+1-310-555-0175,i.dupont@netflix.com,Alpine,Production Coordinator,Broadcast Partner,France
+17,Natalie Rousseau,Netflix Inc,+1-310-555-0207,n.rousseau@netflix.com,RB,Drive to Survive Producer,Broadcast Partner,USA
+18,Tom Eriksson,Spotify AB,+46-8-555-0162,t.eriksson@spotify.com,Alpine,Media Partner,Content Partner,Sweden
+19,Ravi Sharma,Tata Consultancy,+91-22-555-0214,r.sharma@tcs.com,Haas,IT Solutions Lead,Official Supplier,India
+20,Lucas Fontaine,Puma SE,+49-911-555-0183,l.fontaine@puma.com,Ferrari,Apparel Partner,Official Supplier,Germany
+21,Rachel Kim,AWS Amazon,+1-206-555-0219,r.kim@aws.amazon.com,Mercedes-AMG,Cloud Partner Lead,Technical Partner,USA
+22,Priya Nair,Aramco,+966-11-555-0192,p.nair@aramco.com,Aston Martin,Global Partnerships Lead,Title Sponsor,Saudi Arabia

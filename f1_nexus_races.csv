@@ -1,0 +1,24 @@
+round,grand_prix,circuit,city,country,race_date,winner,winner_team,laps,race_time
+1,Australian Grand Prix,Albert Park Circuit,Melbourne,Australia,2026-03-08,George Russell,Mercedes,58,1:23:06.801
+2,Chinese Grand Prix,Shanghai International Circuit,Shanghai,China,2026-03-15,Kimi Antonelli,Mercedes,56,1:33:15.607
+3,Japanese Grand Prix,Suzuka International Racing Course,Suzuka,Japan,2026-03-29,Kimi Antonelli,Mercedes,53,1:28:03.403
+4,Miami Grand Prix,Miami International Autodrome,Miami Gardens,USA,2026-05-03,Kimi Antonelli,Mercedes,57,1:33:19.273
+5,Canadian Grand Prix,Circuit Gilles Villeneuve,Montreal,Canada,2026-05-24,Kimi Antonelli,Mercedes,68,1:28:15.758
+6,Monaco Grand Prix,Circuit de Monaco,Monte Carlo,Monaco,2026-06-07,Kimi Antonelli,Mercedes,78,2:23:31.243
+7,Barcelona-Catalunya Grand Prix,Circuit de Barcelona-Catalunya,Montmeló,Spain,2026-06-14,Lewis Hamilton,Ferrari,66,1:32:28.105
+8,Austrian Grand Prix,Red Bull Ring,Spielberg,Austria,2026-06-28,George Russell,Mercedes,71,1:26:37.979
+9,British Grand Prix,Silverstone Circuit,Silverstone,UK,2026-07-05,Charles Leclerc,Ferrari,52,1:27:11.335
+10,Belgian Grand Prix,Circuit de Spa-Francorchamps,Stavelot,Belgium,2026-07-19,Kimi Antonelli,Mercedes,44,1:24:42.479
+11,Hungarian Grand Prix,Hungaroring,Mogyoród,Hungary,2026-07-26,Lando Norris,McLaren,70,1:39:56.180
+12,Dutch Grand Prix,Circuit Zandvoort,Zandvoort,Netherlands,2026-08-23,Lando Norris,McLaren,72,2:04:44.859
+13,Italian Grand Prix,Autodromo Nazionale Monza,Monza,Italy,2026-09-06,Kimi Antonelli,Mercedes,53,1:51:15.281
+14,Spanish Grand Prix,Madring,Madrid,Spain,2026-09-13,Kimi Antonelli,Mercedes,57,1:34:23.754
+15,Azerbaijan Grand Prix,Baku City Circuit,Baku,Azerbaijan,2026-09-26,George Russell,Mercedes,51,1:38:02.143
+16,Bahrain Grand Prix,Sepang International Circuit,Sepang,Malaysia,2026-10-04,Max Verstappen,Red Bull Racing,55,1:47:14.808
+17,Singapore Grand Prix,Marina Bay Street Circuit,Singapore,Singapore,2026-10-11,Max Verstappen,Red Bull Racing,62,1:42:00.785
+18,United States Grand Prix,Circuit of the Americas,Austin,USA,2026-10-25,Kimi Antonelli,Mercedes,56,1:35:16.650
+19,Mexico City Grand Prix,Autódromo Hermanos Rodríguez,Mexico City,Mexico,2026-11-01,Max Verstappen,Red Bull Racing,71,2:20:28.772
+20,São Paulo Grand Prix,Autódromo José Carlos Pace,São Paulo,Brazil,2026-11-08,,,,
+21,Las Vegas Grand Prix,Las Vegas Strip Circuit,Las Vegas,USA,2026-11-21,,,,
+22,Qatar Grand Prix,Lusail International Circuit,Lusail,Qatar,2026-11-29,,,,
+23,Abu Dhabi Grand Prix,Yas Marina Circuit,Abu Dhabi,UAE,2026-12-06,,,,

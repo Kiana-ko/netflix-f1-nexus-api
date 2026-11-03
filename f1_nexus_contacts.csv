@@ -1,23 +1,88 @@
-id,contact_name,company,phone,email,f1_team,role,partnership_type,country
-1,Max Verstappen,Red Bull Racing,+31-20-555-0101,max.verstappen@redbullracing.com,Red Bull Racing,Driver,F1 Talent,Netherlands
-2,Toto Wolff,Mercedes-AMG F1,+43-1-555-0102,toto.wolff@mercedesamgf1.com,Mercedes-AMG,Team Principal,F1 Talent,Austria
-3,Charles Leclerc,Scuderia Ferrari,+39-06-555-0103,charles.leclerc@ferrari.com,Ferrari,Driver,F1 Talent,Monaco
-4,George Russell,Mercedes-AMG F1,+44-20-555-0104,george.russell@mercedesamgf1.com,Mercedes-AMG,Driver,F1 Talent,UK
-5,Kimi Antonelli,Mercedes-AMG F1,+39-02-555-0105,kimi.antonelli@mercedesamgf1.com,Mercedes-AMG,Driver,F1 Talent,Italy
-6,Nico Rosberg,Rosberg X Racing,+49-711-555-0106,nico.rosberg@rosbergxracing.com,Mercedes-AMG,Brand Ambassador,F1 Talent,Germany
-7,Keke Rosberg,Rosberg Management,+358-9-555-0107,keke.rosberg@rosbergmgmt.com,Williams,Brand Ambassador,F1 Talent,Finland
-8,James Whitfield,Oracle Corporation,+1-415-555-0182,j.whitfield@oracle.com,Red Bull Racing,Sponsorship Manager,Title Sponsor,USA
-9,Sofia Marchetti,Shell Global,+31-20-555-0194,s.marchetti@shell.com,Ferrari,Partnership Director,Technical Partner,Netherlands
-10,Ethan Clarke,Salesforce Inc,+1-415-555-0231,e.clarke@salesforce.com,McLaren,Media Liaison,Global Partner,USA
-11,Yuki Tanaka,Honda Motor Co,+81-3-555-0148,y.tanaka@honda.co.jp,Aston Martin,Technical Partner Lead,Premium Partner,Japan
-12,Marcus Reynolds,Cognizant Technology,+1-201-555-0163,m.reynolds@cognizant.com,Williams,Sponsorship Director,Title Sponsor,USA
-13,Carlos Vega,DHL Express,+49-228-555-0184,c.vega@dhl.com,Ferrari,Logistics Partner,Official Supplier,Germany
-14,Oliver Bennett,Rolex SA,+41-22-555-0137,o.bennett@rolex.com,Red Bull Racing,Hospitality Manager,Premium Partner,Switzerland
-15,Diego Fernandez,Netflix Inc,+1-310-555-0188,d.fernandez@netflix.com,Haas,Content Producer,Broadcast Partner,USA
-16,Isabelle Dupont,Netflix Inc,+1-310-555-0175,i.dupont@netflix.com,Alpine,Production Coordinator,Broadcast Partner,France
-17,Natalie Rousseau,Netflix Inc,+1-310-555-0207,n.rousseau@netflix.com,RB,Drive to Survive Producer,Broadcast Partner,USA
-18,Tom Eriksson,Spotify AB,+46-8-555-0162,t.eriksson@spotify.com,Alpine,Media Partner,Content Partner,Sweden
-19,Ravi Sharma,Tata Consultancy,+91-22-555-0214,r.sharma@tcs.com,Haas,IT Solutions Lead,Official Supplier,India
-20,Lucas Fontaine,Puma SE,+49-911-555-0183,l.fontaine@puma.com,Ferrari,Apparel Partner,Official Supplier,Germany
-21,Rachel Kim,AWS Amazon,+1-206-555-0219,r.kim@aws.amazon.com,Mercedes-AMG,Cloud Partner Lead,Technical Partner,USA
-22,Priya Nair,Aramco,+966-11-555-0192,p.nair@aramco.com,Aston Martin,Global Partnerships Lead,Title Sponsor,Saudi Arabia
+id,contact_name,nickname,company,phone,f1_team,role,partnership_type,country,status,car_number,current_car,race_engineer,is_world_champion,wdc_count,championship_years,title_cars,title_teams,title_engineers,is_rookie,f1_seasons,podiums,poles
+1,Lando Norris,,McLaren Mastercard F1 Team,+44-555-1001,McLaren,Driver,F1 Talent,UK,Active,1,McLaren MCL40,Will Joseph,Yes,1,2025,McLaren MCL39,McLaren,Will Joseph,No,8,49,19
+2,Oscar Piastri,,McLaren Mastercard F1 Team,+44-555-1002,McLaren,Driver,F1 Talent,Australia,Active,81,McLaren MCL40,Tom Stallard,No,0,,,,,No,4,28,6
+3,Kimi Antonelli,,Mercedes-AMG Petronas F1 Team,+44-555-1003,Mercedes,Driver,F1 Talent,Italy,Active,12,Mercedes F1 W17,Peter Bonnington,Yes,1,2026,Mercedes F1 W17,Mercedes,Peter Bonnington,No,2,19,7
+4,George Russell,Mr. Saturday,Mercedes-AMG Petronas F1 Team,+44-555-1004,Mercedes,Driver,F1 Talent,UK,Active,63,Mercedes F1 W17,Marcus Dudley,No,0,,,,,No,8,32,13
+5,Max Verstappen,Mad Max,Oracle Red Bull Racing,+44-555-1005,Red Bull Racing,Driver,F1 Talent,Netherlands,Active,3,Red Bull RB22,Gianpiero Lambiase,Yes,4,2021 | 2022 | 2023 | 2024,Red Bull RB16B | Red Bull RB18 | Red Bull RB19 | Red Bull RB20,Red Bull Racing | Red Bull Racing | Red Bull Racing | Red Bull Racing,Gianpiero Lambiase | Gianpiero Lambiase | Gianpiero Lambiase | Gianpiero Lambiase,No,12,138,50
+6,Isack Hadjar,,Oracle Red Bull Racing,+44-555-1006,Red Bull Racing,Driver,F1 Talent,France,Active,6,Red Bull RB22,Richard Wood,No,0,,,,,No,2,3,0
+7,Charles Leclerc,Il Predestinato,Scuderia Ferrari HP,+39-555-1007,Ferrari,Driver,F1 Talent,Monaco,Active,16,Ferrari SF-26,Bryan Bozzi,No,0,,,,,No,9,56,27
+8,Lewis Hamilton,,Scuderia Ferrari HP,+39-555-1008,Ferrari,Driver,F1 Talent,UK,Active,44,Ferrari SF-26,Carlo Santi,Yes,7,2008 | 2014 | 2015 | 2017 | 2018 | 2019 | 2020,McLaren MP4-23 | Mercedes F1 W05 Hybrid | Mercedes F1 W06 Hybrid | Mercedes-AMG F1 W08 EQ Power+ | Mercedes-AMG F1 W09 EQ Power+ | Mercedes-AMG F1 W10 EQ Power+ | Mercedes-AMG F1 W11 EQ Performance,McLaren | Mercedes | Mercedes | Mercedes | Mercedes | Mercedes | Mercedes,Phil Prew | Peter Bonnington | Peter Bonnington | Peter Bonnington | Peter Bonnington | Peter Bonnington | Peter Bonnington,No,20,209,105
+9,Alex Albon,,Atlassian Williams F1 Team,+44-555-1009,Williams,Driver,F1 Talent,Thailand,Active,23,Williams FW48,James Urwin,No,0,,,,,No,7,2,0
+10,Carlos Sainz,Smooth Operator,Atlassian Williams F1 Team,+44-555-1010,Williams,Driver,F1 Talent,Spain,Active,55,Williams FW48,Gaetan Jego,No,0,,,,,No,12,29,6
+11,Liam Lawson,,Visa Cash App Racing Bulls F1 Team,+39-555-1011,Racing Bulls,Driver,F1 Talent,New Zealand,Active,30,Racing Bulls VCARB 03,Alexandre Iliopoulos,No,0,,,,,No,4,0,0
+12,Arvid Lindblad,,Visa Cash App Racing Bulls F1 Team,+39-555-1012,Racing Bulls,Driver,F1 Talent,UK,Active,41,Racing Bulls VCARB 03,Pierre Hamelin,No,0,,,,,Yes,1,0,0
+13,Fernando Alonso,El Nano,Aston Martin Aramco F1 Team,+44-555-1013,Aston Martin,Driver,F1 Talent,Spain,Active,14,Aston Martin AMR26,Chris Cronin & Andrew Vizard,Yes,2,2005 | 2006,Renault R25 | Renault R26,Renault | Renault,Rod Nelson | Rod Nelson,No,23,106,22
+14,Lance Stroll,,Aston Martin Aramco F1 Team,+44-555-1014,Aston Martin,Driver,F1 Talent,Canada,Active,18,Aston Martin AMR26,Gary Gannon,No,0,,,,,No,10,3,1
+15,Esteban Ocon,,TGR Haas F1 Team,+1-555-1015,Haas,Driver,F1 Talent,France,Active,31,Haas VF-26,Laura Muller,No,0,,,,,No,10,4,0
+16,Oliver Bearman,,TGR Haas F1 Team,+1-555-1016,Haas,Driver,F1 Talent,UK,Active,87,Haas VF-26,Ronan O'Hare,No,0,,,,,No,3,0,0
+17,Nico Hülkenberg,Hulk,Audi Revolut F1 Team,+41-555-1017,Audi,Driver,F1 Talent,Germany,Active,27,Audi R26,Steven Petrik,No,0,,,,,No,15,1,1
+18,Gabriel Bortoleto,,Audi Revolut F1 Team,+41-555-1018,Audi,Driver,F1 Talent,Brazil,Active,5,Audi R26,Jose Manuel Lopez,No,0,,,,,No,2,0,0
+19,Pierre Gasly,,BWT Alpine F1 Team,+44-555-1019,Alpine,Driver,F1 Talent,France,Active,10,Alpine A526,Josh Peckett,No,0,,,,,No,10,5,1
+20,Franco Colapinto,,BWT Alpine F1 Team,+44-555-1020,Alpine,Driver,F1 Talent,Argentina,Active,43,Alpine A526,Stuart Barlow,No,0,,,,,No,3,0,0
+21,Sergio Pérez,Checo,Cadillac Formula 1 Team,+1-555-1021,Cadillac,Driver,F1 Talent,Mexico,Active,11,Cadillac MAC-26,Carlo Pasetti,No,0,,,,,No,15,39,3
+22,Valtteri Bottas,,Cadillac Formula 1 Team,+1-555-1022,Cadillac,Driver,F1 Talent,Finland,Active,77,Cadillac MAC-26,John Howard,No,0,,,,,No,13,67,20
+23,Giuseppe Farina,Nino,Driver Estate,+39-555-1023,Retired,World Champion,Legacy Talent,Italy,Deceased,,,,Yes,1,1950,Alfa Romeo 158,Alfa Romeo,Gioachino Colombo (designer),No,6,20,5
+24,Juan Manuel Fangio,El Maestro,Driver Estate,+54-555-1024,Retired,World Champion,Legacy Talent,Argentina,Deceased,,,,Yes,5,1951 | 1954 | 1955 | 1956 | 1957,Alfa Romeo 159 | Maserati 250F & Mercedes W196 | Mercedes W196 | Lancia-Ferrari D50 | Maserati 250F,Alfa Romeo | Maserati & Mercedes | Mercedes | Ferrari | Maserati,Gioachino Colombo (designer) | Rudolf Uhlenhaut (chief engineer) | Rudolf Uhlenhaut (chief engineer) | Vittorio Jano (designer) | Giulio Alfieri (chief engineer),No,8,35,29
+25,Alberto Ascari,Ciccio,Driver Estate,+39-555-1025,Retired,World Champion,Legacy Talent,Italy,Deceased,,,,Yes,2,1952 | 1953,Ferrari 500 | Ferrari 500,Ferrari | Ferrari,Aurelio Lampredi (designer) | Aurelio Lampredi (designer),No,6,17,14
+26,Mike Hawthorn,The Farnham Flyer,Driver Estate,+44-555-1026,Retired,World Champion,Legacy Talent,UK,Deceased,,,,Yes,1,1958,Ferrari 246 F1,Ferrari,Carlo Chiti (chief engineer),No,7,18,4
+27,Jack Brabham,Black Jack,Driver Estate,+61-555-1027,Retired,World Champion,Legacy Talent,Australia,Deceased,,,,Yes,3,1959 | 1960 | 1966,Cooper T51 | Cooper T53 | Brabham BT19,Cooper | Cooper | Brabham,Owen Maddock (designer) | Owen Maddock (designer) | Ron Tauranac (designer),No,16,31,13
+28,Phil Hill,,Driver Estate,+1-555-1028,Retired,World Champion,Legacy Talent,USA,Deceased,,,,Yes,1,1961,Ferrari 156 F1,Ferrari,Carlo Chiti (designer),No,8,16,6
+29,Graham Hill,Mr. Monaco,Driver Estate,+44-555-1029,Retired,World Champion,Legacy Talent,UK,Deceased,,,,Yes,2,1962 | 1968,BRM P57 | Lotus 49B,BRM | Lotus,Tony Rudd (chief engineer) | Colin Chapman (designer),No,18,36,13
+30,Jim Clark,,Driver Estate,+44-555-1030,Retired,World Champion,Legacy Talent,UK,Deceased,,,,Yes,2,1963 | 1965,Lotus 25 | Lotus 33,Lotus | Lotus,Colin Chapman (designer) | Colin Chapman (designer),No,9,32,33
+31,John Surtees,Big John,Driver Estate,+44-555-1031,Retired,World Champion,Legacy Talent,UK,Deceased,,,,Yes,1,1964,Ferrari 158,Ferrari,Mauro Forghieri (designer),No,13,24,8
+32,Denny Hulme,The Bear,Driver Estate,+64-555-1032,Retired,World Champion,Legacy Talent,New Zealand,Deceased,,,,Yes,1,1967,Brabham BT24,Brabham,Ron Tauranac (designer),No,10,33,1
+33,Jackie Stewart,The Flying Scot,Independent,+44-555-1033,Retired,World Champion,Legacy Talent,UK,Retired,,,,Yes,3,1969 | 1971 | 1973,Matra MS80 | Tyrrell 003 | Tyrrell 006,Matra (Tyrrell-run) | Tyrrell | Tyrrell,Bernard Boyer (designer) | Derek Gardner (designer) | Derek Gardner (designer),No,9,43,17
+34,Jochen Rindt,,Driver Estate,+43-555-1034,Retired,World Champion,Legacy Talent,Austria,Deceased,,,,Yes,1,1970,Lotus 72,Lotus,Colin Chapman (designer),No,7,13,10
+35,Emerson Fittipaldi,Emmo,Independent,+55-555-1035,Retired,World Champion,Legacy Talent,Brazil,Retired,,,,Yes,2,1972 | 1974,Lotus 72D | McLaren M23,Lotus | McLaren,Colin Chapman (designer) | Gordon Coppuck (designer),No,11,35,6
+36,Niki Lauda,The Rat,Driver Estate,+43-555-1036,Retired,World Champion,Legacy Talent,Austria,Deceased,,,,Yes,3,1975 | 1977 | 1984,Ferrari 312T | Ferrari 312T2 | McLaren MP4/2,Ferrari | Ferrari | McLaren,Mauro Forghieri (technical director) | Mauro Forghieri (technical director) | Steve Nichols,No,13,54,24
+37,James Hunt,Hunt the Shunt,Driver Estate,+44-555-1037,Retired,World Champion,Legacy Talent,UK,Deceased,,,,Yes,1,1976,McLaren M23,McLaren,Gordon Coppuck (designer),No,7,23,14
+38,Mario Andretti,,Independent,+1-555-1038,Retired,World Champion,Legacy Talent,USA,Retired,,,,Yes,1,1978,Lotus 79,Lotus,Colin Chapman (designer),No,14,19,18
+39,Jody Scheckter,,Independent,+27-555-1039,Retired,World Champion,Legacy Talent,South Africa,Retired,,,,Yes,1,1979,Ferrari 312T4,Ferrari,Mauro Forghieri (technical director),No,9,33,3
+40,Alan Jones,,Independent,+61-555-1040,Retired,World Champion,Legacy Talent,Australia,Retired,,,,Yes,1,1980,Williams FW07B,Williams,Patrick Head (technical director),No,10,24,6
+41,Nelson Piquet,,Independent,+55-555-1041,Retired,World Champion,Legacy Talent,Brazil,Retired,,,,Yes,3,1981 | 1983 | 1987,Brabham BT49C | Brabham BT52B | Williams FW11B,Brabham | Brabham | Williams,Gordon Murray (technical director) | Gordon Murray (technical director) | James Robinson,No,14,60,24
+42,Keke Rosberg,,Independent,+358-555-1042,Retired,World Champion,Legacy Talent,Finland,Retired,,,,Yes,1,1982,Williams FW08,Williams,Patrick Head (technical director),No,9,17,5
+43,Alain Prost,The Professor,Independent,+33-555-1043,Retired,World Champion,Legacy Talent,France,Retired,,,,Yes,4,1985 | 1986 | 1989 | 1993,McLaren MP4/2B | McLaren MP4/2C | McLaren MP4/5 | Williams FW15C,McLaren | McLaren | McLaren | Williams,John Barnard (technical director) | John Barnard (technical director) | Neil Oatley (designer) | David Brown,No,13,106,33
+44,Ayrton Senna,Magic,Driver Estate,+55-555-1044,Retired,World Champion,Legacy Talent,Brazil,Deceased,,,,Yes,3,1988 | 1990 | 1991,McLaren MP4/4 | McLaren MP4/5B | McLaren MP4/6,McLaren | McLaren | McLaren,Steve Nichols | Gordon Kimball | James Robinson,No,11,80,65
+45,Nigel Mansell,Il Leone,Independent,+44-555-1045,Retired,World Champion,Legacy Talent,UK,Retired,,,,Yes,1,1992,Williams FW14B,Williams,David Brown,No,15,59,32
+46,Michael Schumacher,Schumi,Independent,+49-555-1046,Retired,World Champion,Legacy Talent,Germany,Retired,,,,Yes,7,1994 | 1995 | 2000 | 2001 | 2002 | 2003 | 2004,Benetton B194 | Benetton B195 | Ferrari F1-2000 | Ferrari F2001 | Ferrari F2002 | Ferrari F2003-GA | Ferrari F2004,Benetton | Benetton | Ferrari | Ferrari | Ferrari | Ferrari | Ferrari,Pat Symonds | Pat Symonds | Luca Baldisserri | Luca Baldisserri | Luca Baldisserri | Chris Dyer | Chris Dyer,No,19,155,68
+47,Damon Hill,,Independent,+44-555-1047,Retired,World Champion,Legacy Talent,UK,Retired,,,,Yes,1,1996,Williams FW18,Williams,Tim Preston,No,8,42,20
+48,Jacques Villeneuve,,Independent,+1-555-1048,Retired,World Champion,Legacy Talent,Canada,Retired,,,,Yes,1,1997,Williams FW19,Williams,Jock Clear,No,11,23,13
+49,Mika Häkkinen,The Flying Finn,Independent,+358-555-1049,Retired,World Champion,Legacy Talent,Finland,Retired,,,,Yes,2,1998 | 1999,McLaren MP4-13 | McLaren MP4-14,McLaren | McLaren,Mark Slade | Mark Slade,No,11,51,26
+50,Kimi Räikkönen,The Iceman,Independent,+358-555-1050,Retired,World Champion,Legacy Talent,Finland,Retired,7,,,Yes,1,2007,Ferrari F2007,Ferrari,Chris Dyer,No,19,103,18
+51,Jenson Button,,Independent,+44-555-1051,Retired,World Champion,Legacy Talent,UK,Retired,22,,,Yes,1,2009,Brawn BGP 001,Brawn GP,Andrew Shovlin,No,18,50,8
+52,Sebastian Vettel,Baby Schumi,Independent,+49-555-1052,Retired,World Champion,Legacy Talent,Germany,Retired,5,,,Yes,4,2010 | 2011 | 2012 | 2013,Red Bull RB6 | Red Bull RB7 | Red Bull RB8 | Red Bull RB9,Red Bull Racing | Red Bull Racing | Red Bull Racing | Red Bull Racing,Guillaume Rocquelin | Guillaume Rocquelin | Guillaume Rocquelin | Guillaume Rocquelin,No,16,122,57
+53,Nico Rosberg,Britney,Independent,+49-555-1053,Retired,World Champion,Legacy Talent,Germany,Retired,6,,,Yes,1,2016,Mercedes F1 W07 Hybrid,Mercedes,Tony Ross,No,11,57,30
+54,Andrea Stella,,McLaren Mastercard F1 Team,+44-555-1054,McLaren,Team Principal,Team Leadership,Italy,Active,,,,,,,,,,,,,
+55,Zak Brown,,McLaren Mastercard F1 Team,+44-555-1055,McLaren,CEO,Team Leadership,USA,Active,,,,,,,,,,,,,
+56,Toto Wolff,,Mercedes-AMG Petronas F1 Team,+44-555-1056,Mercedes,Team Principal & CEO,Team Leadership,Austria,Active,,,,,,,,,,,,,
+57,Laurent Mekies,,Oracle Red Bull Racing,+44-555-1057,Red Bull Racing,Team Principal & CEO,Team Leadership,France,Active,,,,,,,,,,,,,
+58,Frédéric Vasseur,,Scuderia Ferrari HP,+39-555-1058,Ferrari,Team Principal,Team Leadership,France,Active,,,,,,,,,,,,,
+59,James Vowles,,Atlassian Williams F1 Team,+44-555-1059,Williams,Team Principal,Team Leadership,UK,Active,,,,,,,,,,,,,
+60,Alan Permane,,Visa Cash App Racing Bulls F1 Team,+39-555-1060,Racing Bulls,Team Principal,Team Leadership,UK,Active,,,,,,,,,,,,,
+61,Adrian Newey,,Aston Martin Aramco F1 Team,+44-555-1061,Aston Martin,Team Principal & Managing Technical Partner,Team Leadership,UK,Active,,,,,,,,,,,,,
+62,Ayao Komatsu,,TGR Haas F1 Team,+1-555-1062,Haas,Team Principal,Team Leadership,Japan,Active,,,,,,,,,,,,,
+63,Mattia Binotto,,Audi Revolut F1 Team,+41-555-1063,Audi,Head of Audi F1 Project,Team Leadership,Italy,Active,,,,,,,,,,,,,
+64,Flavio Briatore,,BWT Alpine F1 Team,+44-555-1064,Alpine,Executive Advisor,Team Leadership,Italy,Active,,,,,,,,,,,,,
+65,Steve Nielsen,,BWT Alpine F1 Team,+44-555-1065,Alpine,Managing Director,Team Leadership,UK,Active,,,,,,,,,,,,,
+66,Marcin Budkowski,,Cadillac Formula 1 Team,+1-555-1066,Cadillac,Team Principal,Team Leadership,Poland,Active,,,,,,,,,,,,,
+67,James Gay-Rees,,Box to Box Films,+44-555-1067,All Teams,"Executive Producer, Drive to Survive",Broadcast Partner,UK,Active,,,,,,,,,,,,,
+68,Tom Rogers,,Box to Box Films,+44-555-1068,All Teams,"Co-Executive Producer, Drive to Survive",Broadcast Partner,UK,Active,,,,,,,,,,,,,
+69,Netflix F1 Partnerships,,Netflix Inc,+1-555-1069,All Teams,"Commissioning Partner, Drive to Survive",Broadcast Partner,USA,Active,,,,,,,,,,,,,
+70,Oracle F1 Partnerships,,Oracle,+1-555-1070,Red Bull Racing,Partnerships Team,Title Sponsor,USA,Active,,,,,,,,,,,,,
+71,HP F1 Partnerships,,HP,+1-555-1071,Ferrari,Partnerships Team,Title Sponsor,USA,Active,,,,,,,,,,,,,
+72,Petronas F1 Partnerships,,Petronas,+60-555-1072,Mercedes,Partnerships Team,Title Sponsor,Malaysia,Active,,,,,,,,,,,,,
+73,Mastercard F1 Partnerships,,Mastercard,+1-555-1073,McLaren,Partnerships Team,Title Sponsor,USA,Active,,,,,,,,,,,,,
+74,Aramco F1 Partnerships,,Aramco,+966-555-1074,Aston Martin,Partnerships Team,Title Sponsor,Saudi Arabia,Active,,,,,,,,,,,,,
+75,Atlassian F1 Partnerships,,Atlassian,+61-555-1075,Williams,Partnerships Team,Title Sponsor,Australia,Active,,,,,,,,,,,,,
+76,Visa F1 Partnerships,,Visa,+1-555-1076,Racing Bulls,Partnerships Team,Title Sponsor,USA,Active,,,,,,,,,,,,,
+77,Toyota Gazoo Racing F1 Partnerships,,Toyota Gazoo Racing,+81-555-1077,Haas,Partnerships Team,Title Sponsor,Japan,Active,,,,,,,,,,,,,
+78,Revolut F1 Partnerships,,Revolut,+44-555-1078,Audi,Partnerships Team,Title Sponsor,UK,Active,,,,,,,,,,,,,
+79,BWT F1 Partnerships,,BWT,+43-555-1079,Alpine,Partnerships Team,Title Sponsor,Austria,Active,,,,,,,,,,,,,
+80,Shell F1 Partnerships,,Shell,+44-555-1080,Ferrari,Partnerships Team,Technical Partner,UK,Active,,,,,,,,,,,,,
+81,Pirelli F1 Partnerships,,Pirelli,+39-555-1081,All Teams,Partnerships Team,Official Supplier,Italy,Active,,,,,,,,,,,,,
+82,DHL F1 Partnerships,,DHL,+49-555-1082,All Teams,Partnerships Team,Global Partner,Germany,Active,,,,,,,,,,,,,
+83,AWS F1 Partnerships,,AWS,+1-555-1083,All Teams,Partnerships Team,Global Partner,USA,Active,,,,,,,,,,,,,
+84,Heineken F1 Partnerships,,Heineken,+31-555-1084,All Teams,Partnerships Team,Global Partner,Netherlands,Active,,,,,,,,,,,,,
+85,TAG Heuer F1 Partnerships,,TAG Heuer,+41-555-1085,All Teams,Partnerships Team,Global Partner,Switzerland,Active,,,,,,,,,,,,,
+86,Salesforce F1 Partnerships,,Salesforce,+1-555-1086,All Teams,Partnerships Team,Global Partner,USA,Active,,,,,,,,,,,,,
+87,Qatar Airways F1 Partnerships,,Qatar Airways,+974-555-1087,All Teams,Partnerships Team,Global Partner,Qatar,Active,,,,,,,,,,,,,
